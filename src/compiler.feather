@@ -1,0 +1,2309 @@
+#terminal-only
+Working=feather.compiler
+load source
+set r95=0000000000000000
+when r00==r95 [
+fail
+]
+when r00<r95 [
+fail
+]
+set r46=0000000000000000
+set r47=0000000000000000
+set r93=0000000000000000
+get r94=source[r93]
+set r92=0000000000000023
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000001
+get r94=source[r93]
+set r92=0000000000000074
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000002
+get r94=source[r93]
+set r92=0000000000000065
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000003
+get r94=source[r93]
+set r92=0000000000000072
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000004
+get r94=source[r93]
+set r92=000000000000006d
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000005
+get r94=source[r93]
+set r92=0000000000000069
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000006
+get r94=source[r93]
+set r92=000000000000006e
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000007
+get r94=source[r93]
+set r92=0000000000000061
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000008
+get r94=source[r93]
+set r92=000000000000006c
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000009
+get r94=source[r93]
+set r92=000000000000002d
+when r94==r92 [
+inc r47
+]
+set r93=000000000000000a
+get r94=source[r93]
+set r92=000000000000006f
+when r94==r92 [
+inc r47
+]
+set r93=000000000000000b
+get r94=source[r93]
+set r92=000000000000006e
+when r94==r92 [
+inc r47
+]
+set r93=000000000000000c
+get r94=source[r93]
+set r92=000000000000006c
+when r94==r92 [
+inc r47
+]
+set r93=000000000000000d
+get r94=source[r93]
+set r92=0000000000000079
+when r94==r92 [
+inc r47
+]
+set r93=000000000000000e
+get r94=source[r93]
+set r92=000000000000000a
+when r94==r92 [
+inc r47
+]
+set r91=000000000000000f
+when r47==r91 [
+set r46=0000000000000001
+]
+set r47=0000000000000000
+set r93=0000000000000000
+get r94=source[r93]
+set r92=0000000000000023
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000001
+get r94=source[r93]
+set r92=0000000000000065
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000002
+get r94=source[r93]
+set r92=0000000000000078
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000003
+get r94=source[r93]
+set r92=0000000000000065
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000004
+get r94=source[r93]
+set r92=0000000000000063
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000005
+get r94=source[r93]
+set r92=0000000000000075
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000006
+get r94=source[r93]
+set r92=0000000000000074
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000007
+get r94=source[r93]
+set r92=0000000000000061
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000008
+get r94=source[r93]
+set r92=0000000000000062
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000009
+get r94=source[r93]
+set r92=000000000000006c
+when r94==r92 [
+inc r47
+]
+set r93=000000000000000a
+get r94=source[r93]
+set r92=0000000000000065
+when r94==r92 [
+inc r47
+]
+set r93=000000000000000b
+get r94=source[r93]
+set r92=000000000000000a
+when r94==r92 [
+inc r47
+]
+set r91=000000000000000c
+when r47==r91 [
+set r46=0000000000000001
+]
+set r47=0000000000000000
+set r93=0000000000000000
+get r94=source[r93]
+set r92=0000000000000023
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000001
+get r94=source[r93]
+set r92=0000000000000073
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000002
+get r94=source[r93]
+set r92=0000000000000063
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000003
+get r94=source[r93]
+set r92=0000000000000072
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000004
+get r94=source[r93]
+set r92=0000000000000069
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000005
+get r94=source[r93]
+set r92=0000000000000070
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000006
+get r94=source[r93]
+set r92=0000000000000074
+when r94==r92 [
+inc r47
+]
+set r93=0000000000000007
+get r94=source[r93]
+set r92=000000000000000a
+when r94==r92 [
+inc r47
+]
+set r91=0000000000000008
+when r47==r91 [
+set r46=0000000000000001
+]
+set r91=0000000000000000
+when r46==r91 [
+fail
+]
+copy r93=r00
+dec r93
+get r94=source[r93]
+set r92=000000000000000a
+when r94!=r92 [
+fail
+]
+set r95=0000000000100000
+when r00>=r95 [
+fail
+]
+set r48=0000000000000000
+set r01=0000000000000000
+set r02=0000000000001000
+set r03=0000000000000000
+set r16=0000000000180000
+append r03="7f454c4602010100000000000000000002003e0001000000001040000000000040000000000000000000000000000000000000004000380003000000000000000100000005000000000000000000000000004000000000000000400000000000001000000000000000100000000000000010000000000000010000000600000000200000000000000000600000000000000060000000000000000000000000000000600000000000001000000000000051e5746406000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000"
+append r02="4989e7"
+set r90=0000000000000000
+while r01<r00 [
+copy r04=r01
+get r05=source[r04]
+set r06=0000000000000020
+while r05==r06 [
+inc r04
+get r05=source[r04]
+]
+set r96=000000000000000a
+when r05!=r96 [
+set r96=0000000000000020
+when r05!=r96 [
+set r96=0000000000000000
+when r48!=r96 [
+fail
+]
+]
+]
+set r50=0000000000000000
+set r06=0000000000000023
+when r05==r06 [
+set r50=0000000000000001
+]
+set r06=0000000000000057
+when r05==r06 [
+set r50=0000000000000001
+]
+set r06=0000000000000022
+when r05==r06 [
+set r50=0000000000000001
+]
+set r06=0000000000000073
+when r05==r06 [
+set r50=0000000000000001
+copy r80=r04
+set r81=0000000000000001
+add r80=r81
+get r07=source[r80]
+set r06=0000000000000065
+when r07==r06 [
+copy r80=r04
+set r81=0000000000000018
+add r80=r81
+get r24=source[r80]
+set r25=000000000000000a
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000007
+add r80=r81
+get r24=source[r80]
+set r25=000000000000003d
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000005
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r07=r83
+set r82=000000000000000a
+mul r07=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r07=r83
+copy r09=r07
+set r81=0000000000000008
+mul r09=r81
+set r81=0000000000600000
+add r09=r81
+set r11=0000000000000000
+copy r84=r04
+set r81=0000000000000008
+add r84=r81
+set r85=0000000000000000
+set r89=0000000000000010
+while r85<r89 [
+get r88=source[r84]
+copy r88=r88
+set r86=000000000000003a
+when r88<r86 [
+set r87=0000000000000030
+sub r88=r87
+]
+when r88>=r86 [
+set r87=0000000000000057
+sub r88=r87
+]
+set r86=0000000000000000
+when r88<r86 [
+fail
+]
+set r86=0000000000000010
+when r88>=r86 [
+fail
+]
+set r87=0000000000000010
+mul r11=r87
+add r11=r88
+inc r84
+inc r85
+]
+append r02="48b8"
+put64 output[r02]=r11
+set r81=0000000000000008
+add r02=r81
+append r02="48a3"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+]
+copy r80=r04
+set r81=0000000000000001
+add r80=r81
+get r07=source[r80]
+set r06=0000000000000075
+when r07==r06 [
+copy r80=r04
+set r81=0000000000000005
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r07=r83
+set r82=000000000000000a
+mul r07=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r07=r83
+copy r80=r04
+set r81=0000000000000009
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r08=r83
+set r82=000000000000000a
+mul r08=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r08=r83
+copy r09=r07
+set r81=0000000000000008
+mul r09=r81
+set r81=0000000000600000
+add r09=r81
+copy r10=r08
+set r81=0000000000000008
+mul r10=r81
+set r81=0000000000600000
+add r10=r81
+append r02="48a1"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+append r02="482b0425"
+put32 output[r02]=r10
+set r81=0000000000000004
+add r02=r81
+append r02="48a3"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+]
+copy r80=r04
+set r81=0000000000000001
+add r80=r81
+get r07=source[r80]
+set r06=0000000000000061
+when r07==r06 [
+copy r80=r04
+set r81=0000000000000003
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000022
+when r24!=r25 [
+fail
+]
+copy r12=r04
+set r81=0000000000000004
+add r12=r81
+set r13=0000000000000000
+get r14=source[r12]
+set r15=0000000000000022
+while r14!=r15 [
+set r25=000000000000000a
+when r14==r25 [
+fail
+]
+inc r13
+inc r12
+get r14=source[r12]
+]
+append r02="b801000000bf01000000488d350c000000ba"
+put32 output[r02]=r13
+set r81=0000000000000004
+add r02=r81
+append r02="0f05e9"
+put32 output[r02]=r13
+set r81=0000000000000004
+add r02=r81
+copy r12=r04
+set r81=0000000000000004
+add r12=r81
+set r15=0000000000000022
+get r14=source[r12]
+while r14!=r15 [
+copy r24=r14
+put output[r02]=r24
+inc r02
+inc r12
+get r14=source[r12]
+]
+]
+copy r80=r04
+set r81=0000000000000001
+add r80=r81
+get r07=source[r80]
+set r06=0000000000000074
+when r07==r06 [
+copy r80=r04
+set r81=000000000000000e
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r07=r83
+set r82=000000000000000a
+mul r07=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r07=r83
+copy r09=r07
+set r81=0000000000000008
+mul r09=r81
+set r81=0000000000600000
+add r09=r81
+append r02="498b7f18b802000000be41020000baed0100000f0585c00f884d0000004189c24c8b0425"
+put32 output[r02]=r09
+set r81=0000000000000004
+add r02=r81
+append r02="41b9000080004d85c00f8424000000b8010000004489d74c89ce4c89c20f054885c00f8e1a0000004929c04901c1e9d3ffffffb8030000004489d70f05e90c000000bf02000000b83c0000000f05"
+]
+]
+set r06=0000000000000063
+when r05==r06 [
+set r50=0000000000000001
+copy r80=r04
+set r81=0000000000000006
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r07=r83
+set r82=000000000000000a
+mul r07=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r07=r83
+copy r80=r04
+set r81=000000000000000a
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r08=r83
+set r82=000000000000000a
+mul r08=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r08=r83
+copy r09=r07
+set r81=0000000000000008
+mul r09=r81
+set r81=0000000000600000
+add r09=r81
+copy r10=r08
+set r81=0000000000000008
+mul r10=r81
+set r81=0000000000600000
+add r10=r81
+append r02="48a1"
+put64 output[r02]=r10
+set r81=0000000000000008
+add r02=r81
+append r02="48a3"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+]
+set r06=0000000000000069
+when r05==r06 [
+set r50=0000000000000001
+copy r80=r04
+set r81=0000000000000005
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r07=r83
+set r82=000000000000000a
+mul r07=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r07=r83
+copy r09=r07
+set r81=0000000000000008
+mul r09=r81
+set r81=0000000000600000
+add r09=r81
+append r02="48a1"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+append r02="48ffc0"
+append r02="48a3"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+]
+set r06=0000000000000064
+when r05==r06 [
+set r50=0000000000000001
+copy r80=r04
+set r81=0000000000000005
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r07=r83
+set r82=000000000000000a
+mul r07=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r07=r83
+copy r09=r07
+set r81=0000000000000008
+mul r09=r81
+set r81=0000000000600000
+add r09=r81
+append r02="48a1"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+append r02="48ffc8"
+append r02="48a3"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+]
+set r06=0000000000000061
+when r05==r06 [
+set r50=0000000000000001
+copy r80=r04
+set r81=0000000000000001
+add r80=r81
+get r07=source[r80]
+set r06=0000000000000064
+when r07==r06 [
+copy r80=r04
+set r81=0000000000000005
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r07=r83
+set r82=000000000000000a
+mul r07=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r07=r83
+copy r80=r04
+set r81=0000000000000009
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r08=r83
+set r82=000000000000000a
+mul r08=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r08=r83
+copy r09=r07
+set r81=0000000000000008
+mul r09=r81
+set r81=0000000000600000
+add r09=r81
+copy r10=r08
+set r81=0000000000000008
+mul r10=r81
+set r81=0000000000600000
+add r10=r81
+append r02="48a1"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+append r02="48030425"
+put32 output[r02]=r10
+set r81=0000000000000004
+add r02=r81
+append r02="48a3"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+]
+copy r80=r04
+set r81=0000000000000001
+add r80=r81
+get r07=source[r80]
+set r06=0000000000000070
+when r07==r06 [
+copy r80=r04
+set r81=0000000000000008
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r07=r83
+set r82=000000000000000a
+mul r07=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r07=r83
+copy r09=r07
+set r81=0000000000000008
+mul r09=r81
+set r81=0000000000600000
+add r09=r81
+copy r80=r04
+set r81=000000000000000b
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000022
+when r24!=r25 [
+fail
+]
+copy r12=r04
+set r81=000000000000000c
+add r12=r81
+set r13=0000000000000000
+get r14=source[r12]
+set r15=0000000000000022
+while r14!=r15 [
+set r25=000000000000000a
+when r14==r25 [
+fail
+]
+inc r12
+get r14=source[r12]
+when r14==r15 [
+fail
+]
+set r25=000000000000000a
+when r14==r25 [
+fail
+]
+inc r13
+inc r12
+get r14=source[r12]
+]
+append r02="48a1"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+append r02="48bf"
+set r23=0000000000800000
+put64 output[r02]=r23
+set r81=0000000000000008
+add r02=r81
+append r02="4801c7"
+append r02="488d3526000000"
+append r02="b9"
+put32 output[r02]=r13
+set r81=0000000000000004
+add r02=r81
+append r02="f3a4"
+append r02="48a1"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+append r02="4805"
+put32 output[r02]=r13
+set r81=0000000000000004
+add r02=r81
+append r02="48a3"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+append r02="e9"
+put32 output[r02]=r13
+set r81=0000000000000004
+add r02=r81
+copy r12=r04
+set r81=000000000000000c
+add r12=r81
+set r15=0000000000000022
+get r14=source[r12]
+while r14!=r15 [
+get r88=source[r12]
+copy r88=r88
+set r86=000000000000003a
+when r88<r86 [
+set r87=0000000000000030
+sub r88=r87
+]
+when r88>=r86 [
+set r87=0000000000000057
+sub r88=r87
+]
+set r86=0000000000000000
+when r88<r86 [
+fail
+]
+set r86=0000000000000010
+when r88>=r86 [
+fail
+]
+copy r24=r88
+set r81=0000000000000010
+mul r24=r81
+inc r12
+get r88=source[r12]
+copy r88=r88
+set r86=000000000000003a
+when r88<r86 [
+set r87=0000000000000030
+sub r88=r87
+]
+when r88>=r86 [
+set r87=0000000000000057
+sub r88=r87
+]
+set r86=0000000000000000
+when r88<r86 [
+fail
+]
+set r86=0000000000000010
+when r88>=r86 [
+fail
+]
+add r24=r88
+inc r12
+put output[r02]=r24
+inc r02
+get r14=source[r12]
+]
+]
+]
+set r06=000000000000006d
+when r05==r06 [
+set r50=0000000000000001
+copy r80=r04
+set r81=0000000000000005
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r07=r83
+set r82=000000000000000a
+mul r07=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r07=r83
+copy r80=r04
+set r81=0000000000000009
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r08=r83
+set r82=000000000000000a
+mul r08=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r08=r83
+copy r09=r07
+set r81=0000000000000008
+mul r09=r81
+set r81=0000000000600000
+add r09=r81
+copy r10=r08
+set r81=0000000000000008
+mul r10=r81
+set r81=0000000000600000
+add r10=r81
+append r02="48a1"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+append r02="480faf0425"
+put32 output[r02]=r10
+set r81=0000000000000004
+add r02=r81
+append r02="48a3"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+]
+set r06=0000000000000067
+when r05==r06 [
+set r50=0000000000000001
+copy r80=r04
+set r81=0000000000000003
+add r80=r81
+get r07=source[r80]
+set r06=0000000000000033
+when r07==r06 [
+copy r80=r04
+set r81=0000000000000007
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r07=r83
+set r82=000000000000000a
+mul r07=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r07=r83
+copy r80=r04
+set r81=0000000000000012
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r08=r83
+set r82=000000000000000a
+mul r08=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r08=r83
+copy r09=r07
+set r81=0000000000000008
+mul r09=r81
+set r81=0000000000600000
+add r09=r81
+copy r10=r08
+set r81=0000000000000008
+mul r10=r81
+set r81=0000000000600000
+add r10=r81
+append r02="48a1"
+put64 output[r02]=r10
+set r81=0000000000000008
+add r02=r81
+append r02="8b80"
+set r23=0000000000800000
+put32 output[r02]=r23
+set r81=0000000000000004
+add r02=r81
+append r02="48a3"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+]
+copy r80=r04
+set r81=0000000000000003
+add r80=r81
+get r07=source[r80]
+set r06=0000000000000020
+when r07==r06 [
+copy r80=r04
+set r81=0000000000000005
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r07=r83
+set r82=000000000000000a
+mul r07=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r07=r83
+copy r80=r04
+set r81=0000000000000010
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r08=r83
+set r82=000000000000000a
+mul r08=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r08=r83
+copy r09=r07
+set r81=0000000000000008
+mul r09=r81
+set r81=0000000000600000
+add r09=r81
+copy r10=r08
+set r81=0000000000000008
+mul r10=r81
+set r81=0000000000600000
+add r10=r81
+append r02="48a1"
+put64 output[r02]=r10
+set r81=0000000000000008
+add r02=r81
+append r02="0fb680"
+set r23=0000000000610000
+put32 output[r02]=r23
+set r81=0000000000000004
+add r02=r81
+append r02="48a3"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+]
+]
+set r06=0000000000000070
+when r05==r06 [
+set r50=0000000000000001
+copy r80=r04
+set r81=0000000000000003
+add r80=r81
+get r07=source[r80]
+set r06=0000000000000020
+when r07==r06 [
+copy r80=r04
+set r81=000000000000000c
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r07=r83
+set r82=000000000000000a
+mul r07=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r07=r83
+copy r80=r04
+set r81=0000000000000011
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r08=r83
+set r82=000000000000000a
+mul r08=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r08=r83
+copy r09=r07
+set r81=0000000000000008
+mul r09=r81
+set r81=0000000000600000
+add r09=r81
+copy r10=r08
+set r81=0000000000000008
+mul r10=r81
+set r81=0000000000600000
+add r10=r81
+append r02="48a1"
+put64 output[r02]=r10
+set r81=0000000000000008
+add r02=r81
+append r02="488b0c25"
+put32 output[r02]=r09
+set r81=0000000000000004
+add r02=r81
+append r02="8881"
+set r23=0000000000800000
+put32 output[r02]=r23
+set r81=0000000000000004
+add r02=r81
+]
+copy r80=r04
+set r81=0000000000000003
+add r80=r81
+get r07=source[r80]
+set r06=0000000000000033
+when r07==r06 [
+copy r80=r04
+set r81=000000000000000e
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r07=r83
+set r82=000000000000000a
+mul r07=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r07=r83
+copy r80=r04
+set r81=0000000000000013
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r08=r83
+set r82=000000000000000a
+mul r08=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r08=r83
+copy r09=r07
+set r81=0000000000000008
+mul r09=r81
+set r81=0000000000600000
+add r09=r81
+copy r10=r08
+set r81=0000000000000008
+mul r10=r81
+set r81=0000000000600000
+add r10=r81
+append r02="48a1"
+put64 output[r02]=r10
+set r81=0000000000000008
+add r02=r81
+append r02="488b0c25"
+put32 output[r02]=r09
+set r81=0000000000000004
+add r02=r81
+append r02="8981"
+set r23=0000000000800000
+put32 output[r02]=r23
+set r81=0000000000000004
+add r02=r81
+]
+copy r80=r04
+set r81=0000000000000003
+add r80=r81
+get r07=source[r80]
+set r06=0000000000000036
+when r07==r06 [
+copy r80=r04
+set r81=000000000000000e
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r07=r83
+set r82=000000000000000a
+mul r07=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r07=r83
+copy r80=r04
+set r81=0000000000000013
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r08=r83
+set r82=000000000000000a
+mul r08=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r08=r83
+copy r09=r07
+set r81=0000000000000008
+mul r09=r81
+set r81=0000000000600000
+add r09=r81
+copy r10=r08
+set r81=0000000000000008
+mul r10=r81
+set r81=0000000000600000
+add r10=r81
+append r02="48a1"
+put64 output[r02]=r10
+set r81=0000000000000008
+add r02=r81
+append r02="488b0c25"
+put32 output[r02]=r09
+set r81=0000000000000004
+add r02=r81
+append r02="488981"
+set r23=0000000000800000
+put32 output[r02]=r23
+set r81=0000000000000004
+add r02=r81
+]
+]
+set r06=000000000000006c
+when r05==r06 [
+set r50=0000000000000001
+copy r80=r04
+set r81=0000000000000000
+add r80=r81
+get r24=source[r80]
+set r25=000000000000006c
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000001
+add r80=r81
+get r24=source[r80]
+set r25=000000000000006f
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000002
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000061
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000003
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000064
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000004
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000020
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000005
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000073
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000006
+add r80=r81
+get r24=source[r80]
+set r25=000000000000006f
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000007
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000075
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000008
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000072
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000009
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000063
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=000000000000000a
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000065
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=000000000000000b
+add r80=r81
+get r24=source[r80]
+set r25=000000000000000a
+when r24!=r25 [
+fail
+]
+append r02="498b7f10b80200000031f60f0585c00f882e00000089c731c0be00006100ba000010000f0585c00f881600000048a30000600000000000b8030000000f05e90c000000bf02000000b83c0000000f05"
+]
+set r06=0000000000000077
+when r05==r06 [
+set r50=0000000000000001
+copy r80=r04
+set r81=0000000000000002
+add r80=r81
+get r07=source[r80]
+set r06=0000000000000065
+when r07==r06 [
+copy r80=r04
+set r81=0000000000000006
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r07=r83
+set r82=000000000000000a
+mul r07=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r07=r83
+copy r80=r04
+set r81=0000000000000008
+add r80=r81
+get r24=source[r80]
+set r06=000000000000003d
+when r24==r06 [
+copy r80=r04
+set r81=000000000000000b
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r08=r83
+set r82=000000000000000a
+mul r08=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r08=r83
+copy r20=r02
+copy r09=r07
+set r81=0000000000000008
+mul r09=r81
+set r81=0000000000600000
+add r09=r81
+copy r10=r08
+set r81=0000000000000008
+mul r10=r81
+set r81=0000000000600000
+add r10=r81
+append r02="48a1"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+append r02="483b0425"
+put32 output[r02]=r10
+set r81=0000000000000004
+add r02=r81
+append r02="0f85"
+copy r21=r02
+append r02="00000000"
+set r19=0000000000000000
+put32 output[r16]=r20
+set r81=0000000000000004
+add r16=r81
+put32 output[r16]=r21
+set r81=0000000000000004
+add r16=r81
+put32 output[r16]=r19
+set r81=0000000000000004
+add r16=r81
+]
+set r06=0000000000000021
+when r24==r06 [
+copy r80=r04
+set r81=000000000000000b
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r08=r83
+set r82=000000000000000a
+mul r08=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r08=r83
+copy r20=r02
+copy r09=r07
+set r81=0000000000000008
+mul r09=r81
+set r81=0000000000600000
+add r09=r81
+copy r10=r08
+set r81=0000000000000008
+mul r10=r81
+set r81=0000000000600000
+add r10=r81
+append r02="48a1"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+append r02="483b0425"
+put32 output[r02]=r10
+set r81=0000000000000004
+add r02=r81
+append r02="0f84"
+copy r21=r02
+append r02="00000000"
+set r19=0000000000000000
+put32 output[r16]=r20
+set r81=0000000000000004
+add r16=r81
+put32 output[r16]=r21
+set r81=0000000000000004
+add r16=r81
+put32 output[r16]=r19
+set r81=0000000000000004
+add r16=r81
+]
+set r06=000000000000003c
+when r24==r06 [
+copy r80=r04
+set r81=000000000000000a
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r08=r83
+set r82=000000000000000a
+mul r08=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r08=r83
+copy r20=r02
+copy r09=r07
+set r81=0000000000000008
+mul r09=r81
+set r81=0000000000600000
+add r09=r81
+copy r10=r08
+set r81=0000000000000008
+mul r10=r81
+set r81=0000000000600000
+add r10=r81
+append r02="48a1"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+append r02="483b0425"
+put32 output[r02]=r10
+set r81=0000000000000004
+add r02=r81
+append r02="0f8d"
+copy r21=r02
+append r02="00000000"
+set r19=0000000000000000
+put32 output[r16]=r20
+set r81=0000000000000004
+add r16=r81
+put32 output[r16]=r21
+set r81=0000000000000004
+add r16=r81
+put32 output[r16]=r19
+set r81=0000000000000004
+add r16=r81
+]
+set r06=000000000000003e
+when r24==r06 [
+copy r80=r04
+set r81=000000000000000b
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r08=r83
+set r82=000000000000000a
+mul r08=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r08=r83
+copy r20=r02
+copy r09=r07
+set r81=0000000000000008
+mul r09=r81
+set r81=0000000000600000
+add r09=r81
+copy r10=r08
+set r81=0000000000000008
+mul r10=r81
+set r81=0000000000600000
+add r10=r81
+append r02="48a1"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+append r02="483b0425"
+put32 output[r02]=r10
+set r81=0000000000000004
+add r02=r81
+append r02="0f8c"
+copy r21=r02
+append r02="00000000"
+set r19=0000000000000000
+put32 output[r16]=r20
+set r81=0000000000000004
+add r16=r81
+put32 output[r16]=r21
+set r81=0000000000000004
+add r16=r81
+put32 output[r16]=r19
+set r81=0000000000000004
+add r16=r81
+]
+]
+set r06=0000000000000069
+when r07==r06 [
+copy r80=r04
+set r81=0000000000000007
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r07=r83
+set r82=000000000000000a
+mul r07=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r07=r83
+copy r80=r04
+set r81=0000000000000009
+add r80=r81
+get r24=source[r80]
+set r06=000000000000003c
+when r24==r06 [
+copy r80=r04
+set r81=000000000000000b
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r08=r83
+set r82=000000000000000a
+mul r08=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r08=r83
+copy r20=r02
+copy r09=r07
+set r81=0000000000000008
+mul r09=r81
+set r81=0000000000600000
+add r09=r81
+copy r10=r08
+set r81=0000000000000008
+mul r10=r81
+set r81=0000000000600000
+add r10=r81
+append r02="48a1"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+append r02="483b0425"
+put32 output[r02]=r10
+set r81=0000000000000004
+add r02=r81
+append r02="0f8d"
+copy r21=r02
+append r02="00000000"
+set r19=0000000000000001
+put32 output[r16]=r20
+set r81=0000000000000004
+add r16=r81
+put32 output[r16]=r21
+set r81=0000000000000004
+add r16=r81
+put32 output[r16]=r19
+set r81=0000000000000004
+add r16=r81
+]
+set r06=0000000000000021
+when r24==r06 [
+copy r80=r04
+set r81=000000000000000c
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r08=r83
+set r82=000000000000000a
+mul r08=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r08=r83
+copy r20=r02
+copy r09=r07
+set r81=0000000000000008
+mul r09=r81
+set r81=0000000000600000
+add r09=r81
+copy r10=r08
+set r81=0000000000000008
+mul r10=r81
+set r81=0000000000600000
+add r10=r81
+append r02="48a1"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+append r02="483b0425"
+put32 output[r02]=r10
+set r81=0000000000000004
+add r02=r81
+append r02="0f84"
+copy r21=r02
+append r02="00000000"
+set r19=0000000000000001
+put32 output[r16]=r20
+set r81=0000000000000004
+add r16=r81
+put32 output[r16]=r21
+set r81=0000000000000004
+add r16=r81
+put32 output[r16]=r19
+set r81=0000000000000004
+add r16=r81
+]
+set r06=000000000000003d
+when r24==r06 [
+copy r80=r04
+set r81=000000000000000c
+add r80=r81
+get r83=source[r80]
+set r81=0000000000000030
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+copy r08=r83
+set r82=000000000000000a
+mul r08=r82
+inc r80
+get r83=source[r80]
+when r83<r81 [
+fail
+]
+set r82=000000000000003a
+when r83>=r82 [
+fail
+]
+sub r83=r81
+add r08=r83
+copy r20=r02
+copy r09=r07
+set r81=0000000000000008
+mul r09=r81
+set r81=0000000000600000
+add r09=r81
+copy r10=r08
+set r81=0000000000000008
+mul r10=r81
+set r81=0000000000600000
+add r10=r81
+append r02="48a1"
+put64 output[r02]=r09
+set r81=0000000000000008
+add r02=r81
+append r02="483b0425"
+put32 output[r02]=r10
+set r81=0000000000000004
+add r02=r81
+append r02="0f85"
+copy r21=r02
+append r02="00000000"
+set r19=0000000000000001
+put32 output[r16]=r20
+set r81=0000000000000004
+add r16=r81
+put32 output[r16]=r21
+set r81=0000000000000004
+add r16=r81
+put32 output[r16]=r19
+set r81=0000000000000004
+add r16=r81
+]
+]
+]
+set r06=000000000000005d
+when r05==r06 [
+set r50=0000000000000001
+set r95=0000000000180000
+when r16==r95 [
+fail
+]
+set r81=0000000000000004
+sub r16=r81
+get32 r19=output[r16]
+sub r16=r81
+get32 r21=output[r16]
+sub r16=r81
+get32 r20=output[r16]
+set r81=0000000000000001
+when r19==r81 [
+append r02="e9"
+copy r22=r20
+copy r23=r02
+set r81=0000000000000004
+add r23=r81
+sub r22=r23
+put32 output[r02]=r22
+set r81=0000000000000004
+add r02=r81
+]
+copy r22=r02
+copy r23=r21
+set r81=0000000000000004
+add r23=r81
+sub r22=r23
+put32 output[r21]=r22
+]
+set r06=0000000000000071
+when r05==r06 [
+set r50=0000000000000001
+copy r80=r04
+set r81=0000000000000000
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000071
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000001
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000075
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000002
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000069
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000003
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000074
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000004
+add r80=r81
+get r24=source[r80]
+set r25=000000000000002e
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000005
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000073
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000006
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000063
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000007
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000072
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000008
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000069
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000009
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000070
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=000000000000000a
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000074
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=000000000000000b
+add r80=r81
+get r24=source[r80]
+set r25=000000000000000a
+when r24!=r25 [
+fail
+]
+set r48=0000000000000001
+append r02="b83c00000031ff0f05"
+]
+set r06=0000000000000066
+when r05==r06 [
+set r50=0000000000000001
+copy r80=r04
+set r81=0000000000000000
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000066
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000001
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000061
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000002
+add r80=r81
+get r24=source[r80]
+set r25=0000000000000069
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000003
+add r80=r81
+get r24=source[r80]
+set r25=000000000000006c
+when r24!=r25 [
+fail
+]
+copy r80=r04
+set r81=0000000000000004
+add r80=r81
+get r24=source[r80]
+set r25=000000000000000a
+when r24!=r25 [
+fail
+]
+append r02="b83c000000bf020000000f05"
+]
+set r95=0000000000000000
+when r50==r95 [
+set r96=000000000000000a
+when r05!=r96 [
+fail
+]
+]
+copy r01=r04
+get r05=source[r01]
+set r06=000000000000000a
+while r05!=r06 [
+inc r01
+get r05=source[r01]
+]
+inc r01
+]
+set r91=0000000000000001
+when r48!=r91 [
+fail
+]
+set r91=0000000000180000
+when r16!=r91 [
+fail
+]
+set r95=0000000000180000
+when r02>=r95 [
+fail
+]
+set r23=0000000000000060
+put64 output[r23]=r02
+set r23=0000000000000068
+put64 output[r23]=r02
+store output r02
+quit.script

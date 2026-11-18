@@ -1,0 +1,4 @@
+#terminal-only
+Working=com.feather.hello
+say"Hello from Feather machine code"
+quit.script

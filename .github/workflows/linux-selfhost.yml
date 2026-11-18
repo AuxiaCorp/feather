@@ -1,0 +1,15 @@
+name: Feather self-hosting Linux x86-64
+on:
+  push:
+  pull_request:
+jobs:
+  selfhost:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Linux architecture
+        run: test "$(uname -m)" = x86_64
+      - name: Compile Feather from its Feather source, 3 generations, execute tests
+        run: ./scripts/test.sh
+      - name: Verify no Rust sources or toolchain manifests
+        run: '! find . \( -name "*.rs" -o -name Cargo.toml -o -name Cargo.lock \) | grep -q .'

@@ -1,0 +1,22 @@
+#terminal-only
+Working=tests.math
+set r01=0000000000000006
+set r02=0000000000000007
+mul r01=r02
+set r03=000000000000002a
+when r01==r03 [
+say"42"
+]
+set r04=0000000000000003
+add r04=r02
+set r05=000000000000000a
+when r04==r05 [
+say"sum-10"
+]
+when r05>=r01 [
+say"ERROR"
+]
+when r05<r01 [
+say"LT"
+]
+quit.script

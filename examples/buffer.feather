@@ -1,0 +1,24 @@
+#executable
+Working=tests.buffer
+set r01=0000000000000000
+set r02=0000000012345678
+put32 output[r01]=r02
+get32 r03=output[r01]
+when r02==r03 [
+say"BUFFER32-PASS"
+]
+set r04=0000000000000008
+set r05=abcdef0123456789
+put64 output[r04]=r05
+get32 r06=output[r04]
+set r07=0000000023456789
+when r06==r07 [
+say"BUFFER64-PASS"
+]
+set r08=0000000000000020
+append r08="010203040506"
+set r09=0000000000000026
+when r08==r09 [
+say"APPEND-PASS"
+]
+quit.script

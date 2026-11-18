@@ -1,0 +1,13 @@
+#script
+Working=tests.copy
+load source
+set r01=0000000000000000
+set r02=0000000000000000
+while r01<r00 [
+get r03=source[r01]
+put output[r02]=r03
+inc r01
+inc r02
+]
+store output r02
+quit.script

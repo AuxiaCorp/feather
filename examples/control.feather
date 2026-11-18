@@ -1,0 +1,10 @@
+#terminal-only
+Working=tests.control
+set r01=0000000000000000
+set r02=0000000000000005
+while r01<r02 [
+    say"."
+    inc r01
+]
+say"Done"
+quit.script
